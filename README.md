@@ -136,7 +136,7 @@ This will fork polygon mainnet. You can then run tests.
 <!-- License and use -->
 ## Licenses and use
 This contract is free to use at your own risk, if you are integrating this in your production code its strongly raccomanded you do your software test to fit your application at best. 
-This code may be a base for your tweaks as long as it gets improved.
+
 
 
 <!-- Donation -->
