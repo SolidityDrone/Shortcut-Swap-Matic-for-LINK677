@@ -130,7 +130,7 @@ simply navigate into the folder and run
   forge test --fork-url https://polygon-rpc.com -vv
   ```
 This will fork polygon mainnet. You can then run tests.
-
+As this project is born to fit my specific problem this only works oneway in for now, but you can easily add a new function to make it backwards. Then include that in your contract's interface ;)
 
 
 <!-- License and use -->
