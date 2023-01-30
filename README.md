@@ -3,10 +3,10 @@
 <div align="center">
  
 
-  <h3 align="center">One function Matic to link 677 swap on poligon Mainnet</h3>
+  <h3 align="center">One function Matic to link 677 swap on Polygon Mainnet</h3>
 
   <p align="center">
-    This contract is live on the polygon mainnet!
+    This contract is live on the Polygon Mainnet!
     <br />  Deploying soon on mainnet 
     <a href="https://polygonscan.com/"><strong>Check on PolygonScan»</strong></a>
     <br />
