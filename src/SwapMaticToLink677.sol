@@ -13,20 +13,21 @@ interface IPegSwap{
     function swap(uint256 amount, address source, address target) external;
 }
     /// @title Matic to Link ERC677 compatible in one function
-    /// @author ZergDrone - See deployer address;
+    /// @author SolidtyDrone - See deployer address;
     /// @notice this contract contains and external function to swap matic to erc677 Link
     /// @dev simply create an interface for swap() external payable returns(uint256) and call from a contract
 contract SwapMaticToLink677 is UniV3WmaticLinkSwap, ReentrancyGuard{
 
     
-    event SwapCompleted(address indexed caller, uint256 maticAmount, uint256 linkAmount);
-  
+    event SwapCompleted(address indexed caller, uint256 indexed maticAmount, uint256 linkAmount);
+    
     IPegSwap public immutable pegswap;
     UniV3WmaticLinkSwap public immutable MaticLinkSwap;
-    //@notice addresses for polygon network
-    address public constant ChainlinkPegSwap =    0xAA1DC356dc4B18f30C347798FD5379F3D77ABC5b;
-
-    address public constant ERC677_Link =         0xb0897686c545045aFc77CF20eC7A532E3120E0F1;
+    //@notice address for polygon mainnet Chainlink PegSwap 
+    //              https://polygonscan.com/address/0xaa1dc356dc4b18f30c347798fd5379f3d77abc5b#code
+    address constant ChainlinkPegSwap =             0xAA1DC356dc4B18f30C347798FD5379F3D77ABC5b;
+    //              https://polygonscan.com/address/0xb0897686c545045aFc77CF20eC7A532E3120E0F1#code
+    address public constant ERC677_Link =           0xb0897686c545045aFc77CF20eC7A532E3120E0F1;
 
     /// @notice constructor is called upon deployment
     /// @dev intializes immutable variables
