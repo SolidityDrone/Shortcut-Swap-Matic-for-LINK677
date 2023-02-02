@@ -143,6 +143,6 @@ This contract is free to use at your own risk, if you are integrating this in yo
 <!-- Donation -->
 This project took me a while to figure out, and I'm giving it to you for free. If you ever find that useful for your needs or just appreciate my work and want to make a donation here's two address I have access to
 
- 0xD4E7B756BCE89070D0558E02D801FAE0C419a990
+ 0xD4E7B756BCE89070D0558E02D801FAE0C419a990 <br />
  0xf8D487dE6F92995c539093fd4419e1B12759c08b
 
