@@ -119,7 +119,7 @@ contract UniV3WmaticLinkSwap {
     ///@dev Calculates the amount of link per matic through getLatestPrice()
     ///@return price in link of one matic price as uint256
     function checkLinkPerMatic() public view returns (uint256){
-        return ((1e18 / (uint256(getLatestPrice())/1e10)) * 1e8);
+        return ((1e18 * 1e18 /(uint256(getLatestPrice()))) );
     }
     
 }
