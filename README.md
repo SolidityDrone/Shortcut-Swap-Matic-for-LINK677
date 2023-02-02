@@ -7,8 +7,9 @@
 
   <p align="center">
     This contract is live on the Polygon Mainnet!
-    <br />  Deploying soon on mainnet 
-    <a href="https://polygonscan.com/"><strong>Check on PolygonScan»</strong></a>
+    <br />  Live at address: 0xa1dd997D3c214b9F4B4510cfF0E6c78f58720feF
+    <a href="https://polygonscan.com/address/0xa1dd997D3c214b9F4B4510cfF0E6c78f58720feF"><strong>Check on PolygonScan»</strong></a>
+  
     <br />
     <br />
     
